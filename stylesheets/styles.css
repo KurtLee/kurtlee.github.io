@@ -611,6 +611,14 @@ strong {
   padding: 0 20px;
 }
 
+.wrapper2 {
+  max-width: 650px;
+  line-height:60px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 20px;
+}
+
 section img {
   max-width: 100%;
 }
@@ -699,7 +707,6 @@ dt {
   left: 0;
   top: 0px;
   height: 60px;
-  line-height:60px;
   width: 100%;
   position: fixed;
   background: url(../images/nav-bg.gif) #353535;
