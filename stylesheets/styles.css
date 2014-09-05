@@ -694,6 +694,12 @@ dt {
   font-weight: normal;
 }
 
+#floater {
+	float:left; 
+	height:50%; 
+	margin-bottom:-120px;
+}
+
 #header {
   z-index: 100;
   left: 0;
