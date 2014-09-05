@@ -613,6 +613,7 @@ strong {
 
 .wrapper2 {
   max-width: 650px;
+  height:60px;
   line-height:60px;
   margin: 0 auto;
   position: relative;
