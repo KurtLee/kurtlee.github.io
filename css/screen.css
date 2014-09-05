@@ -75,8 +75,8 @@ ul.posts {
   ul.posts a {
     color: #e0e0e0;
     font-family: Monaco, "Courier New", monospace;
-	
-    font-size: 80%;
+	font-size: 80%;
+	text-decoration: none;
   }
 
 /*****************************************************************************/
