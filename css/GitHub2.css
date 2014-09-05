@@ -5,6 +5,7 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: white;
+  text-decoration: none;
   padding: 30px; }
 
 body > *:first-child {
