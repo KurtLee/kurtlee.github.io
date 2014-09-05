@@ -34,13 +34,15 @@
         <h3>
 <a name="kurts-blog" class="anchor" href="#kurts-blog"><span class="octicon octicon-link"></span></a>{{ page.title }}</h3>
 
-<p>最新文章</p>
+<p>喜欢摄影，爱好音乐，我在这里记录一些简单的生活片段！</p>
 
-<ul>
-　　　　{% for post in site.posts %}
-　　　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-　　　　{% endfor %}
-　　</ul>
+<p><img src="./images/guitar.jpg" alt=""></p>
+
+<p><img src="./images/ant.jpg" alt=""></p>
+
+<p><img src="./images/sky.jpg" alt=""></p>
+
+<p>{{ page.date | date_to_string }}</p>
 
 <div id="title"><span class="credits left">Project maintained by <a href="http://kurtlee.me">KurtLee</a></span> <span class="credits right">Hosted on GitHub Pages — Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span></div>
       </section>
