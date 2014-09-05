@@ -175,19 +175,15 @@ ul.posts {
   }
 
   #post code {
-  color:#000000;
-  background-color: #f8f8f8;
-  border: 1px solid #cccccc;
-  font-size: 13px;
-  line-height: 19px;
-  overflow: auto;
-  padding: 6px 10px;
-  border-radius: 3px; 
+	color:#000000;
+    border: 1px solid #ddd;
+    background-color: #eef;
+    font-size: 85%;
+    padding: 0 .2em;
   }
 
     #post pre code {
-      background-color: transparent;
-	  border: none;
+      border: none;
     }
 
   /* terminal */
