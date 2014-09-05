@@ -71,6 +71,12 @@ ul.posts {
     font-family: Monaco, "Courier New", monospace;
     font-size: 80%;
   }
+  
+  ul.posts a {
+    color: #f0f0f0;
+    font-family: Monaco, "Courier New", monospace;
+    font-size: 80%;
+  }
 
 /*****************************************************************************/
 /*
