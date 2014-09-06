@@ -167,7 +167,8 @@ ul.posts {
     border: 1px solid #ddd;
     background-color: #E6E6EC;
     padding: 0 .4em;
-	margin-bottom: 1.5em;
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
   }
 
   #post ul,
