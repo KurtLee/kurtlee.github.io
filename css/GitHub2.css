@@ -275,6 +275,10 @@ pre {
     background-color: transparent;
     border: none; }
 .site {
+  position:absolute;
+  right:0px;
+  top:0px;
+  
   width: 40em;
 }
 
