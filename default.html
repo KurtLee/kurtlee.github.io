@@ -11,11 +11,6 @@
 
 
 
-
-<script type='text/javascript' src='/js/jquery.js'></script>
-<script type='text/javascript' src='/js/jquery-migrate.min.js'></script>
-
-
 <style type="text/css">
  .att-social-widget-output { list-style: none; } .att-social-widget-output li { margin: 0; padding: 0; border: none; float: left; margin-right: 5px; margin-bottom: 5px; } .att-social-widget-output li img:hover { opacity: 0.8; } .att-social-widget-output li img:active { position: relative; top: 1px; } 
 </style>    
@@ -69,44 +64,5 @@
         </div><!-- /main-content -->
     </div><!-- /wrap -->
 
-
-<script type="text/javascript">
-				jQuery(function($){
-					$(window).load(function() {
-						$( ".att-slider" ).each( function() {
-							var animation = $(this).data("atts-transition");
-							var slideshow = $(this).data("atts-slideshow");
-							var randomize = $(this).data("atts-randomize");
-							var slideshowSpeed = $(this).data("atts-slideshow-speed");
-							var animationSpeed = $(this).data("atts-animation-speed");
-							$(this).flexslider({
-								animation: animation,
-								slideshow : slideshow,
-								randomize : randomize,
-								directionNav: false,
-								slideshowSpeed: slideshowSpeed,
-								animationSpeed: animationSpeed,
-								smoothHeight: true
-							});
-						});
-						$(".att-slider-directional").on("click", function(){
-							var href = $(this).attr("href");
-							var parentSlider = $(this).parent("div");
-							parentSlider.flexslider(href);
-							return false;
-						})
-					});
-				});
-			</script><script type='text/javascript' src='/js/jquery.form.min.js'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var _wpcf7 = {"loaderUrl":"http:\/\/demo.authenticthemes.com\/lefty\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ...","cached":"1"};
-/* ]]> */
-</script>
-<script type='text/javascript' src='/js/scripts.js'></script>
-<script type='text/javascript' src='/js/prettyphoto.js'></script>
-<script type='text/javascript' src='/js/prettyphoto-init.js'></script>
-<script type='text/javascript' src='/js/global.js'></script>
-<script type='text/javascript' src='/js/jquery.flexslider-min.js'></script>
 </body>
 </html>
