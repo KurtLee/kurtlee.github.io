@@ -2,11 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-   <title>{% if page.title != "Kurt's Blog" %}
-    Kurt's Blog - {{ page.title }}
-	{% else %}
-	{{ page.title }}
-{% endif %}</title>
+   <title>{{ page.title }}</title>
    <meta name="author" content="Kurt Lee" />
 
 
@@ -14,8 +10,29 @@
    <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
 
    <!-- Homepage CSS -->
-   <link rel="stylesheet" href="/css/GitHub2.css" type="text/css" media="screen, projection" />
-   
+   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+   <style type="text/css">
+   .site .footer {
+	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+}
+   .site .footer {
+	font-family: Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black, sans-serif;
+}
+   .site .footer .contact p {
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial, sans-serif;
+}
+   .site .title a {
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial, sans-serif;
+}
+   body,td,th {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color: #FFFFFF;
+}
+   body {
+	background-image: url(/images/nav-bg.gif);
+	background-repeat: repeat;
+}
+   </style>
 
 </head>
 <body>
@@ -24,7 +41,7 @@
 
 <div class="site">
   <div class="title">
-    <h1><a href="/"><font color="#882324">Kurt's Blog</font></a></h1>
+    <h1><a href="/">Kurt's Blog</a></h1>
 <!--    <a class="extra" href="/">Home</a></h2>  -->
   </div>
   
@@ -34,6 +51,7 @@
     <div class="contact">
       <p>
         Kurt Lee<br />
+        Cofounder of <a href="http://github.com/">GitHub</a><br />
         kurt.lee.cn@gmail.com
       </p>
     </div>
