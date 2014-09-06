@@ -274,13 +274,7 @@ pre {
   pre code, pre tt {
     background-color: transparent;
     border: none; }
-.site {
-  position:absolute;
-  right:0px;
-  top:0px;
-  
-  width: 40em;
-}
+
 
 sup {
     font-size: 0.83em;
